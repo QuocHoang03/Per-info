@@ -1,0 +1,68 @@
+:root {
+  --default-border-radius: 24px;
+  --default-height-header: 160px;
+}
+
+.wrapper {
+  width: var(--default-layout-width);
+  min-height: 220px;
+  background: var(--background-content);
+  padding: 30px;
+  border-radius: var(--default-border-radius);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  flex: 1;
+}
+
+.avatar {
+  height: var(--default-height-header);
+  width: var(--default-height-header);
+}
+
+.avatar-img {
+  border-radius: var(--default-border-radius);
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.profile {
+  height: var(--default-height-header);
+  flex: 1;
+  padding: 0 24px;
+}
+
+.name {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.description {
+  padding-top: 8px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.description-icon {
+}
+
+.description-edu {
+  margin-left: 4px;
+}
+
+.contacts {
+  margin-top: 45px;
+}
+
+.header-right {
+  flex: 1;
+  padding: 0 24px;
+  height: var(--default-height-header);
+}
