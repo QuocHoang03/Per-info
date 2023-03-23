@@ -9,8 +9,13 @@
 .container {
   display: flex;
   width: var(--default-layout-width);
+  padding-top: 24px;
 }
 
 .content {
   flex: 1;
+  padding: 30px;
+  margin: 0 16px;
+  border-radius: var(--default-border-radius);
+  background: var(--background-content);
 }

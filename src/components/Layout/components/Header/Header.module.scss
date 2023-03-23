@@ -1,5 +1,4 @@
 :root {
-  --default-border-radius: 24px;
   --default-height-header: 160px;
 }
 
@@ -16,6 +15,7 @@
   align-items: center;
 }
 
+// ----- header left -----
 .header-left {
   display: flex;
   flex: 1;
@@ -40,29 +40,149 @@
 }
 
 .name {
-  font-size: 2.6rem;
-  font-weight: 500;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
 
 .description {
   padding-top: 8px;
   font-size: 1.6rem;
-  font-weight: 400;
-}
-
-.description-icon {
+  font-weight: 500;
 }
 
 .description-edu {
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 .contacts {
-  margin-top: 45px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
+.contact-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 6px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: background-color 0.2s linear;
+}
+
+// facebook
+.tippy-facebook {
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.contact-item-facebook {
+  &:hover {
+    background-color: #3b5998;
+  }
+  &:hover .facebook {
+    color: #fff;
+  }
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+// tiktok
+.tippy-tiktok {
+  background-color: #000;
+  color: #fff;
+  border-radius: 12px;
+}
+.contact-item-tiktok {
+  &:hover {
+    background-color: #000;
+  }
+  &:hover .tiktok {
+    color: #fff;
+  }
+}
+
+.tiktok {
+  color: #000;
+}
+
+// instagram
+.tippy-instagram {
+  background: linear-gradient(#ea14c1, #efbc00);
+  color: #fff;
+  border-radius: 12px;
+}
+.contact-item-instagram {
+  &:hover {
+    background: linear-gradient(#ea14c1, #efbc00);
+  }
+}
+
+.instagram {
+  width: 24px;
+  height: 24px;
+}
+//youtube
+.tippy-youtube {
+  background-color: #ea4335;
+  color: #fff;
+  border-radius: 12px;
+}
+.contact-item-youtube {
+  &:hover {
+    background-color: #ea4335;
+  }
+  &:hover .youtube {
+    color: #fff;
+  }
+}
+
+.youtube {
+  color: #ea4335;
+}
+
+.separate {
+  content: '';
+  width: 0.5px;
+  height: var(--default-height-header);
+  background-color: var(--color-brown);
+}
+
+// ----- header right -----
 .header-right {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 0 24px;
   height: var(--default-height-header);
+}
+
+.inner {
+  flex: 1;
+  display: flex;
+  margin: 12px 0;
+}
+.email,
+.phone {
+  width: 320px;
+}
+
+.birth,
+.hometown {
+  flex: 1;
+}
+.inner-heading {
+  color: var(--color-brown);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.inner-content {
+  font-size: 1.6rem;
 }
