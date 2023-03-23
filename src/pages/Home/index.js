@@ -1,60 +1,12 @@
 import classNames from 'classnames/bind';
+import { useState } from 'react';
 import styles from './Home.module.scss';
+import SliderHome from './SliderHome';
+import { dataProjects } from './data';
 
 const cx = classNames.bind(styles);
-
-const projects = [
-  {
-    id: 1,
-    name: 'Tiktok Clone',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 2,
-    name: 'The Band',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 3,
-    name: 'Project placeholder',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 4,
-    name: 'Project placeholder',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 5,
-    name: 'Project placeholder',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 6,
-    name: 'Project placeholder',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 7,
-    name: 'Project placeholder',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 8,
-    name: 'Project placeholder',
-    link: 'https://quochoang03.github.io/TheBand/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-];
-
 function Home() {
+  const [projects] = useState(dataProjects);
   return (
     <div className={cx('wrapper')}>
       <div className={cx('introduce')}>
@@ -81,7 +33,6 @@ function Home() {
               <div key={index} className={cx('project')}>
                 <a className={cx('project-img')} href={project.link}>
                   <img className={cx('img')} src={project.img} alt="Error" />
-                  {console.log(project.img)}
                 </a>
                 <div className={cx('project-name')}>{project.name}</div>
               </div>
@@ -92,12 +43,14 @@ function Home() {
       <div className={cx('motivation')}>
         <div className={cx('motivation-heading')}>Những câu nói cho mình cảm hứng</div>
         <span className={cx('motivation-partition')} />
+        {/* demo */}
         <div className={cx('motivation-content')}>
-          <div className={cx('motivation-slidebar')}></div>
+          <div className={cx('motivation-slidebar')}>
+            <SliderHome />
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
 export default Home;
