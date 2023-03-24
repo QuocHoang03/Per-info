@@ -11,42 +11,42 @@ const dataProjects = [
     link: 'https://quochoang03.github.io/TheBand/',
     img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
   },
-  // {
-  //   id: 3,
-  //   name: 'Project placeholder',
-  //   link: 'https://quochoang03.github.io/TheBand/',
-  //   img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  // },
-  // {
-  //   id: 4,
-  //   name: 'Project placeholder',
-  //   link: 'https://quochoang03.github.io/TheBand/',
-  //   img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'Project placeholder',
-  //   link: 'https://quochoang03.github.io/TheBand/',
-  //   img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  // },
-  // {
-  //   id: 6,
-  //   name: 'Project placeholder',
-  //   link: 'https://quochoang03.github.io/TheBand/',
-  //   img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  // },
-  // {
-  //   id: 7,
-  //   name: 'Project placeholder',
-  //   link: 'https://quochoang03.github.io/TheBand/',
-  //   img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  // },
-  // {
-  //   id: 8,
-  //   name: 'Project placeholder',
-  //   link: 'https://quochoang03.github.io/TheBand/',
-  //   img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  // },
+  {
+    id: 3,
+    name: 'Project placeholder',
+    link: 'https://quochoang03.github.io/TheBand/',
+    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
+  },
+  {
+    id: 4,
+    name: 'Project placeholder',
+    link: 'https://quochoang03.github.io/TheBand/',
+    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
+  },
+  {
+    id: 5,
+    name: 'Project placeholder',
+    link: 'https://quochoang03.github.io/TheBand/',
+    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
+  },
+  {
+    id: 6,
+    name: 'Project placeholder',
+    link: 'https://quochoang03.github.io/TheBand/',
+    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
+  },
+  {
+    id: 7,
+    name: 'Project placeholder',
+    link: 'https://quochoang03.github.io/TheBand/',
+    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
+  },
+  {
+    id: 8,
+    name: 'Project placeholder',
+    link: 'https://quochoang03.github.io/TheBand/',
+    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
+  },
 ];
 const dataSliderHome = [
   {
