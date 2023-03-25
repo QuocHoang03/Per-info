@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import { useState } from 'react';
 import styles from './Home.module.scss';
 import SliderHome from './SliderHome';
-import { dataProjects } from './data';
+import { dataProjects, introduce } from './data';
 
 const cx = classNames.bind(styles);
 function Home() {
@@ -13,15 +13,8 @@ function Home() {
         <div className={cx('introduce-heading')}>Giới thiệu</div>
         <span className={cx('introduce-partition')} />
         <div className={cx('introduce-content')}>
-          <p>
-            Mình tên là Hoàng, hiện tại đang là sinh viên của trường ĐH Duy Tân Đà Nẵng và học chuyên ngành Công Nghệ
-            Thông Tin.
-          </p>
-          <p>
-            Thời gian gần đây mình tình cờ biết đến trang F8, các video ở đây dạy rất tận tâm và dễ hiểu. Sau 1 khoảng
-            thời gian học tập tại đây, mình đã hoàn thành khóa JavaScript căn bản và sẽ tiếp tục học các khóa khác để
-            vươn tới mục tiêu có thể thực tập và đi làm trong tương lai!
-          </p>
+          <p>{introduce.description1}</p>
+          <p>{introduce.description2}</p>
         </div>
       </div>
       <div className={cx('description')}>
@@ -43,7 +36,6 @@ function Home() {
       <div className={cx('motivation')}>
         <div className={cx('motivation-heading')}>Những câu nói cho mình cảm hứng</div>
         <span className={cx('motivation-partition')} />
-        {/* demo */}
         <div className={cx('motivation-content')}>
           <div className={cx('motivation-slidebar')}>
             <SliderHome />

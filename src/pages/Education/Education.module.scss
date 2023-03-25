@@ -88,9 +88,9 @@
   }
 }
 .timeline {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #707070;
-  margin-top: -4px;
+  margin-top: -5px;
   padding-bottom: 8px;
 }
 .description {
@@ -101,4 +101,104 @@
   color: #9b0000;
   font-weight: 700;
   text-decoration: none;
+}
+
+// skill
+.skills {
+  width: 100%;
+  padding: 24px;
+  min-height: 100px;
+  border: solid 2px #fff;
+  border-radius: var(--default-border-radius);
+}
+
+.skill-item {
+  position: relative;
+  height: 24px;
+  width: 100%;
+  border-radius: var(--default-border-radius);
+  background: #c4e0e8;
+}
+
+.margin-top-24 {
+  margin-top: 24px;
+}
+
+.skill-percent {
+  position: relative;
+  height: 24px;
+  border-radius: var(--default-border-radius);
+  background: linear-gradient(135deg, #009fff, #ec2f4b);
+}
+
+.percent {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-right: 8px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.percent-15 {
+  width: 15%;
+  animation: percent15 1s forwards;
+}
+.percent-30 {
+  width: 30%;
+  animation: percent30 1s forwards;
+}
+.percent-40 {
+  width: 40%;
+  animation: percent40 1s forwards;
+}
+.percent-60 {
+  width: 60%;
+  animation: percent60 1s forwards;
+}
+
+@keyframes percent15 {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 15%;
+  }
+}
+@keyframes percent30 {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 30%;
+  }
+}
+@keyframes percent40 {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 40%;
+  }
+}
+@keyframes percent60 {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+.skill-name {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-left: 8px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }

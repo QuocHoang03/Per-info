@@ -1,4 +1,10 @@
-const knowledges = [
+const dataHeading = {
+  education: 'Giáo dục',
+  knowledge: 'Kiến thức',
+  skillMyself: 'Kỹ năng của tôi',
+};
+
+const dataKnowledges = [
   {
     id: 1,
     title: 'C',
@@ -26,10 +32,42 @@ const knowledges = [
   {
     id: 4,
     title: 'JS',
+    borderLeft: null,
     timeline: 'JavaScript',
     description:
       'Javascript là một ngôn ngữ lập trình kịch bản được sử dụng rộng rãi trong các ứng dụng Website và được hỗ trợ hầu như trên tất cả các trình duyệt trên cả máy tính lẫn điện thoại. Nhiệm vụ của Javascript là xử lý những đối tượng HTML trên trình duyệt. Nó có thể can thiệp với các hành động như thêm / xóa / sửa các thuộc tính CSS và các thẻ HTML một cách dễ dàng.',
   },
 ];
 
-export { knowledges };
+const dataSkillMyselfs = [
+  {
+    id: 1,
+    name: 'C',
+    percent: '60%',
+    marginTop24: null,
+    runPercent: 'percent-60',
+  },
+  {
+    id: 2,
+    name: 'HTML',
+    percent: '40%',
+    marginTop24: 'margin-top-24',
+    runPercent: 'percent-40',
+  },
+  {
+    id: 3,
+    name: 'CSS',
+    percent: '30%',
+    marginTop24: 'margin-top-24',
+    runPercent: 'percent-30',
+  },
+  {
+    id: 4,
+    name: 'JS',
+    percent: '15%',
+    marginTop24: 'margin-top-24',
+    runPercent: 'percent-15',
+  },
+];
+
+export { dataKnowledges, dataHeading, dataSkillMyselfs };

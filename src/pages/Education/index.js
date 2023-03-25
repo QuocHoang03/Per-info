@@ -2,7 +2,7 @@ import { faBookOpenReader, faGraduationCap } from '@fortawesome/free-solid-svg-i
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import styles from './Education.module.scss';
-import { knowledges } from './data';
+import { dataKnowledges, dataHeading, dataSkillMyselfs } from './data';
 
 const cx = classNames.bind(styles);
 
@@ -16,7 +16,7 @@ function Education() {
           <div className={cx('block-icon')}>
             <FontAwesomeIcon className={cx('icon')} icon={faGraduationCap} />
           </div>
-          Giáo dục
+          {dataHeading.education}
         </h2>
         {/* school */}
         <div className={cx('component', 'border-left')}>
@@ -60,18 +60,35 @@ function Education() {
           <div className={cx('block-icon')}>
             <FontAwesomeIcon className={cx('icon')} icon={faBookOpenReader} />
           </div>
-          Kiến thức
+          {dataHeading.knowledge}
         </h2>
-        {/* school */}
-        {knowledges.map((knowledge) => {
+        {dataKnowledges.map((knowledge) => {
           return (
-            <div id={knowledge.id} className={cx('component', knowledge.borderLeft)}>
+            <div key={knowledge.id} className={cx('component', knowledge.borderLeft)}>
               <h4 className={cx('title')}>{knowledge.title}</h4>
               <div className={cx('timeline')}>{knowledge.timeline}</div>
               <p className={cx('description')}>{knowledge.description}</p>
             </div>
           );
         })}
+      </div>
+
+      {/* content 3 */}
+      <div className={cx('wrapper-content')}>
+        <h2 className={cx('education')}>{dataHeading.skillMyself}</h2>
+        <div className={cx('skills')}>
+          {dataSkillMyselfs &&
+            dataSkillMyselfs.map((dataSkillMyself) => {
+              return (
+                <div key={dataSkillMyself.id} className={cx('skill-item', dataSkillMyself.marginTop24)}>
+                  <div className={cx('skill-percent', dataSkillMyself.runPercent)}>
+                    <p className={cx('percent')}>{dataSkillMyself.percent}</p>
+                  </div>
+                  <h5 className={cx('skill-name')}>{dataSkillMyself.name}</h5>
+                </div>
+              );
+            })}
+        </div>
       </div>
     </div>
   );

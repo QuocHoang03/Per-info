@@ -12,6 +12,7 @@
 }
 
 .slipPosition {
+  position: relative;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,7 +20,7 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: all 0.3s linear;
+  transition: all 0.5s linear;
 }
 .people-left {
   height: 100%;
@@ -28,12 +29,33 @@
   display: flex;
   align-items: center;
 }
-.people-img {
-  display: block;
+.block-img {
+  z-index: 1;
+  position: relative;
   width: 90px;
+  height: 90px;
+}
+
+.people-img {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border-radius: var(--default-border-radius);
   box-shadow: rgba(244, 255, 83, 0.384) 0px 2px 4px 0px, rgba(244, 255, 83, 0.644) 0px 2px 16px 0px;
 }
+
+.people-icon {
+  height: 32px;
+  left: 50%;
+  bottom: 96%;
+  color: rgb(255, 207, 74, 0.7);
+  position: absolute;
+  transform: translateX(-50%);
+}
+
 .people-right {
   display: flex;
   flex-direction: column;
@@ -60,7 +82,7 @@
 }
 .last-slide {
   opacity: 0;
-  transform: translateX(-100);
+  transform: translateX(-100%);
 }
 .prev {
   left: 1px;
@@ -99,4 +121,28 @@
     background-color: #fff;
     zoom: 1.02;
   }
+}
+
+.slide-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 12%;
+  position: absolute;
+}
+.dotItem {
+  color: #fff;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+.dotItem.action {
+  width: 13px;
+  height: 13px;
+  color: #000;
+  border: solid 1px #fff;
 }
