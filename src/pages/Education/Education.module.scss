@@ -202,3 +202,18 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+// css target
+.partition {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1a2a6c, #b21f1f, #fdbb2d);
+  }
+}
