@@ -1,5 +1,3 @@
-.wrapper {
-}
 .wrapper-title {
   position: relative;
   padding-bottom: 4px;
@@ -79,8 +77,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.name {
-}
-
 .description {
+  line-height: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: justify;
 }

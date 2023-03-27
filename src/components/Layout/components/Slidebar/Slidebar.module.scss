@@ -43,14 +43,6 @@
   color: #000;
 }
 
-.link-home {
-}
-.link-education {
-}
-.link-target {
-}
-.link-hobby {
-}
 .icon {
   padding: 8px 0;
   color: #383436;
@@ -61,4 +53,10 @@
   color: #7e7d7d;
   font-weight: 700;
   font-size: 1.6rem;
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+  }
 }

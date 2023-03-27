@@ -66,6 +66,7 @@
 .project-img {
   flex: 1;
   display: block;
+  height: 100%;
   width: 100%;
   text-decoration: none;
   overflow: hidden;
@@ -117,4 +118,20 @@
   height: 200px;
   border-radius: var(--default-border-radius);
   background: linear-gradient(-90deg, #e1eec3, #f05053);
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .project {
+    height: 194px;
+    width: 298px;
+  }
+  // .project-img {
+  //   &:hover {
+  //     transition: none;
+  //     border-radius: var(--default-border-radius);
+  //   }
+  // }
+  .img {
+    transition: none;
+  }
 }

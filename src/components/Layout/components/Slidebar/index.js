@@ -11,14 +11,12 @@ const cx = classNames.bind(styles);
 const HandleActionSlide = () => {
   useEffect(() => {
     const tabs = document.querySelectorAll(`.${styles.linkItem}`);
-    {
-      tabs &&
-        tabs.forEach((tab) => {
-          tab.onclick = () => {
-            HandleAddClassAction(tab);
-          };
-        });
-    }
+    tabs &&
+      tabs.forEach((tab) => {
+        tab.onclick = () => {
+          HandleAddClassAction(tab);
+        };
+      });
   });
 };
 

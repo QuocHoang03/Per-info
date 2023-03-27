@@ -39,7 +39,7 @@ const dataWatchMovies = [
     name: 'Đế Chế Maya',
     image: require('./components/img/DeCheMaya.jpg'),
     description:
-      ' Lấy bối cảnh ở thế kỷ XVI, chuyện phim Apocalypto kể về cuộc sống bình yên của bộ tộc Maya bỗng chốc trở nên hoang tàn khi một toán lính thiện chiến ập đến bắt họ về để tế thần.Jaguar Paw, chàng thổ dân dũng cảm và cũng có mặt trong đám người xấu số sắp lên đàn hiến tế.',
+      ' Lấy bối cảnh ở thế kỷ XVI, chuyện phim Apocalypto kể về cuộc sống bình yên của bộ tộc Maya bỗng chốc trở nên hoang tàn khi một toán lính thiện chiến ập đến bắt họ về để tế thần.Jaguar Paw, chàng thổ dân dũng cảm và cũng có mặt trong đám người xấu số sắp lên đàn hiến tế. Tình thế ngàn cân treo sợi tóc buộc anh phải hành động để cứu lấy dân làng và những người mình yêu thương.',
   },
   {
     id: 3,
