@@ -37,3 +37,19 @@
     width: var(--default-layout-width-tablet);
   }
 }
+
+@media (max-width: 740px) {
+  .wrapper {
+    align-items: center;
+    padding: 100px 0;
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+    width: var(--default-layout-width-mobile);
+  }
+  .content {
+    padding: 20px;
+    margin: 0;
+  }
+}

@@ -16,7 +16,7 @@ function Header() {
         {/* header left */}
         <div className={cx('header-left')}>
           <div className={cx('avatar')}>
-            <img className={cx('avatar-img')} src={images.doraemon} alt="avatar" />
+            <img className={cx('avatar-img')} src={images.avatar} alt="avatar" />
           </div>
           <div className={cx('profile')}>
             <div className={cx('name')}>Phạm Quốc Hoàng</div>
@@ -89,7 +89,7 @@ function Header() {
             {/* hometown */}
             <div className={cx('hometown')}>
               <div className={cx('inner-heading')}>QUÊ HƯƠNG</div>
-              <div className={cx('inner-content')}>Quãng Ngãi</div>
+              <div className={cx('inner-content')}>Quảng Ngãi</div>
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ function Education() {
               người anh sinh năm 96 học Cơ khí - Bách Khoa
             </a>
             . Vì quá ngưỡng mộ nghị lực phi thường của anh nên mình đã quyết định và chính thức trở thành tân sinh viên
-            HAUI, chuyên ngành CNTT vào năm 2018.
+            DTU, chuyên ngành CNPM vào năm 2021.
           </p>
         </div>
         {/* f8 */}

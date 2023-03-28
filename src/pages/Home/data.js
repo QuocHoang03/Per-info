@@ -1,8 +1,8 @@
 const introduce = {
   description1:
-    'Mình tên là Hoàng, hiện tại đang là sinh viên của trường ĐH Duy Tân Đà Nẵng và học chuyên ngành Công NghệThông Tin.',
+    'Mình tên là Quốc Hoàng, hiện tại đang là sinh viên của trường ĐH Duy Tân Đà Nẵng, chuyên ngành Công Nghệ Phần Mềm .',
   description2:
-    'Thời gian gần đây mình tình cờ biết đến trang F8, các video ở đây dạy rất tận tâm và dễ hiểu. Sau 1 khoảng thời gian học tập tại đây, mình đã hoàn thành khóa JavaScript căn bản và sẽ tiếp tục học các khóa khác để vươn tới mục tiêu có thể thực tập và đi làm trong tương lai!',
+    'Thời gian gần đây mình tình cờ biết đến FullStack. Sau 1 khoảng thời gian học tập, mình đã trau dồi một số kiến thức cơ bản và sẽ tiếp tục cố gắng học thêm để vươn tới mục tiêu có thể thực tập và đi làm trong tương lai!',
 };
 
 const dataProjects = [
@@ -30,18 +30,18 @@ const dataProjects = [
     link: 'https://quochoang03.github.io/Travel/',
     img: require('./components/img/Travel.png'),
   },
-  {
-    id: 5,
-    name: 'Placeholder',
-    link: '/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
-  {
-    id: 6,
-    name: 'Placeholder',
-    link: '/',
-    img: 'https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg',
-  },
+  // {
+  //   id: 5,
+  //   name: 'Placeholder',
+  //   link: '/',
+  //   img: require('./components/img/placeholder.webp'),
+  // },
+  // {
+  //   id: 6,
+  //   name: 'Placeholder',
+  //   link: '/',
+  //   img: require('./components/img/placeholder.webp'),
+  // },
 ];
 
 const dataSliderHome = [

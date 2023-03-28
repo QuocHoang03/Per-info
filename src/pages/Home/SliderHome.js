@@ -14,15 +14,13 @@ function SliderHome() {
   const HandleDots = (indexPeople, countSlide) => {
     useEffect(() => {
       const slidedots = document.querySelectorAll(`.${styles.dotItem}`);
-      {
-        slidedots &&
-          slidedots.forEach((dot, indexDot) => {
-            if (indexDot === indexPeople && indexDot === countSlide) {
-              document.querySelectorAll(`.${styles.dotItem}.${styles.action}`)[0].classList.remove(styles.action);
-              dot.classList.add(styles.action);
-            }
-          });
-      }
+      slidedots &&
+        slidedots.forEach((dot, indexDot) => {
+          if (indexDot === indexPeople && indexDot === countSlide) {
+            document.querySelectorAll(`.${styles.dotItem}.${styles.action}`)[0].classList.remove(styles.action);
+            dot.classList.add(styles.action);
+          }
+        });
     }, [indexPeople, countSlide]);
   };
 

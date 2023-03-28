@@ -41,7 +41,7 @@
 
 .content {
   width: 100%;
-  min-height: 150px;
+  height: 150px;
   display: block;
   padding: 20px;
   color: #000;
@@ -86,3 +86,24 @@
   overflow: hidden;
   text-align: justify;
 }
+
+@media (max-width: 740px) {
+  .content {
+    height: 104px;
+    padding: 12px;
+  }
+  .img {
+    width: 130px;
+    height: 80px;
+  }
+  .description {
+    -webkit-line-clamp: 3;
+    text-align: start;
+  }
+  .block-content {
+    align-items: center;
+  }
+  .content-right {
+    font-size: 1.4rem;
+  }
+} ;

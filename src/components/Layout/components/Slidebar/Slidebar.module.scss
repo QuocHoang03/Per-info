@@ -18,8 +18,8 @@
 }
 
 .linkItem {
-  width: 120px;
-  height: 105px;
+  max-width: 120px;
+  max-height: 105px;
   display: flex;
   padding: 12px 0;
   align-items: center;
@@ -58,5 +58,27 @@
 @media (min-width: 740px) and (max-width: 1024px) {
   .wrapper {
     flex-direction: row;
+  }
+}
+
+@media (max-width: 740px) {
+  .wrapper {
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    flex-direction: row;
+    border-radius: 0;
+    background: var(--background-content);
+    border-top-left-radius: var(--default-border-radius);
+    border-top-right-radius: var(--default-border-radius);
+  }
+  .linkItem {
+    min-width: 80px;
+    min-height: 80px;
+    margin: 4px;
+    background-color: rgba(255, 255, 255, 1);
   }
 }
