@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './Slidebar.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook, faBullseye, faHeart, faUser } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const cx = classNames.bind(styles);

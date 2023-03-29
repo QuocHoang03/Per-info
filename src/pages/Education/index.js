@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import styles from './Education.module.scss';
 import { dataKnowledges, dataHeading, dataSkillMyselfs } from './data';
-
 const cx = classNames.bind(styles);
 
 function Education() {

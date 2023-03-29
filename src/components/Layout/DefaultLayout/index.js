@@ -5,7 +5,6 @@ import Slidebar from '../components/Slidebar';
 const cx = classNames.bind(styles);
 
 function DefaultLayout({ children }) {
-  // alert('Web mình chưa tương thích với SmartPhone các bạn dùng Laptop để mở nhé');
   return (
     <div className={cx('wrapper')}>
       <Header />

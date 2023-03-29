@@ -3,7 +3,6 @@ import { useState } from 'react';
 import styles from './Home.module.scss';
 import SliderHome from './SliderHome';
 import { dataProjects, introduce } from './data';
-
 const cx = classNames.bind(styles);
 function Home() {
   const [projects] = useState(dataProjects);
