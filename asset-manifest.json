@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Per-info/static/css/main.f903595b.css",
+    "main.js": "/Per-info/static/js/main.8fbac7c2.js",
+    "static/js/787.ded01145.chunk.js": "/Per-info/static/js/787.ded01145.chunk.js",
+    "static/media/Travel.png": "/Per-info/static/media/Travel.805f26fc60376ce93dbf.png",
+    "static/media/Shopee-res.png": "/Per-info/static/media/Shopee-res.7e6bb7ce868abdfba149.png",
+    "static/media/PhamQuocHoang1.jpg": "/Per-info/static/media/PhamQuocHoang1.f9dabac0c7d37d0cd56e.jpg",
+    "static/media/BillGates.png": "/Per-info/static/media/BillGates.a0d112b4d256278fb5ed.png",
+    "static/media/LienQuan.jpg": "/Per-info/static/media/LienQuan.e31214e2e2bb7330a590.jpg",
+    "static/media/Pubg.webp": "/Per-info/static/media/Pubg.aac947470482c3ec71f3.webp",
+    "static/media/ChienLang.jpg": "/Per-info/static/media/ChienLang.9da641fae8f5a8d7e603.jpg",
+    "static/media/CuocChienCuaRong.jpg": "/Per-info/static/media/CuocChienCuaRong.0fd1224e2d85150ef4da.jpg",
+    "static/media/theBand.png": "/Per-info/static/media/theBand.48971cd869e81575997c.png",
+    "static/media/MarkZuckerberg.jpg": "/Per-info/static/media/MarkZuckerberg.56a5f66d8fc1dbf01357.jpg",
+    "static/media/SonDang.jpg": "/Per-info/static/media/SonDang.5a43d59676b1b83c767a.jpg",
+    "static/media/AuMobile.jpg": "/Per-info/static/media/AuMobile.7540b49c1e12a5c8aa53.jpg",
+    "static/media/instagram_icon_161086.ico": "/Per-info/static/media/instagram_icon_161086.3eb99083aab4b1aca360.ico",
+    "static/media/tiktok-ui.png": "/Per-info/static/media/tiktok-ui.2895468a4f45f456c0dc.png",
+    "static/media/DeCheMaya.jpg": "/Per-info/static/media/DeCheMaya.596520f29eeeb807c4ed.jpg",
+    "static/media/WarrenEdwardBuffett.jpg": "/Per-info/static/media/WarrenEdwardBuffett.158a22d6857cbddf5112.jpg",
+    "index.html": "/Per-info/index.html",
+    "main.f903595b.css.map": "/Per-info/static/css/main.f903595b.css.map",
+    "main.8fbac7c2.js.map": "/Per-info/static/js/main.8fbac7c2.js.map",
+    "787.ded01145.chunk.js.map": "/Per-info/static/js/787.ded01145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f903595b.css",
+    "static/js/main.8fbac7c2.js"
+  ]
+}
